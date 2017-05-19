@@ -1,5 +1,19 @@
 package org.tmf.dsmapi.catalog.resource.product;
 
+import org.codehaus.jackson.annotate.JsonIgnore;
+import org.codehaus.jackson.annotate.JsonProperty;
+import org.codehaus.jackson.map.annotate.JsonSerialize;
+import org.tmf.dsmapi.catalog.resource.AbstractCatalogEntity;
+import org.tmf.dsmapi.catalog.resource.CatalogReference;
+import org.tmf.dsmapi.catalog.resource.LifecycleStatus;
+import org.tmf.dsmapi.catalog.resource.ServiceLevelAgreement;
+import org.tmf.dsmapi.catalog.resource.TimeRange;
+import org.tmf.dsmapi.catalog.resource.category.Category;
+import org.tmf.dsmapi.catalog.resource.resource.ResourceCandidate;
+import org.tmf.dsmapi.catalog.resource.service.ServiceCandidate;
+import org.tmf.dsmapi.commons.Utilities;
+import org.tmf.dsmapi.commons.annotation.EntityReferenceProperty;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
@@ -15,19 +29,6 @@ import javax.persistence.Embedded;
 import javax.persistence.JoinColumn;
 import javax.persistence.MappedSuperclass;
 import javax.xml.bind.annotation.XmlRootElement;
-import org.codehaus.jackson.annotate.JsonIgnore;
-import org.codehaus.jackson.annotate.JsonProperty;
-import org.codehaus.jackson.map.annotate.JsonSerialize;
-import org.tmf.dsmapi.catalog.resource.AbstractCatalogEntity;
-import org.tmf.dsmapi.catalog.resource.CatalogReference;
-import org.tmf.dsmapi.catalog.resource.LifecycleStatus;
-import org.tmf.dsmapi.catalog.resource.ServiceLevelAgreement;
-import org.tmf.dsmapi.catalog.resource.TimeRange;
-import org.tmf.dsmapi.catalog.resource.category.Category;
-import org.tmf.dsmapi.catalog.resource.resource.ResourceCandidate;
-import org.tmf.dsmapi.catalog.resource.service.ServiceCandidate;
-import org.tmf.dsmapi.commons.Utilities;
-import org.tmf.dsmapi.commons.annotation.EntityReferenceProperty;
 
 /**
  *
@@ -186,7 +187,6 @@ public class ProductOffering extends AbstractCatalogEntity implements Serializab
     @Column(name = "IS_BUNDLE", nullable = true)
     private Boolean isBundle;
 
-    @Embedded
     @ElementCollection
     @CollectionTable(name = "CRI_PRODUCT_OFFER_R_CATEGORY", joinColumns = {
         @JoinColumn(name = "CATALOG_ID", referencedColumnName = "CATALOG_ID"),
@@ -197,7 +197,6 @@ public class ProductOffering extends AbstractCatalogEntity implements Serializab
     @EntityReferenceProperty(classId=Category.class)
     private List<CatalogReference> category;
 
-    @Embedded
     @ElementCollection
     @CollectionTable(name = "CRI_PRODUCT_OFFER_R_CHANNEL", joinColumns = {
         @JoinColumn(name = "CATALOG_ID", referencedColumnName = "CATALOG_ID"),
@@ -207,7 +206,6 @@ public class ProductOffering extends AbstractCatalogEntity implements Serializab
     })
     private List<Channel> channel;
 
-    @Embedded
     @ElementCollection
     @CollectionTable(name = "CRI_PRODUCT_OFFER_R_PLACE", joinColumns = {
         @JoinColumn(name = "CATALOG_ID", referencedColumnName = "CATALOG_ID"),
@@ -217,7 +215,6 @@ public class ProductOffering extends AbstractCatalogEntity implements Serializab
     })
     private List<Place> place;
 
-    @Embedded
     @ElementCollection
     @CollectionTable(name = "CRI_PRODUCT_OFFER_R_PRODUCT_OFFER", joinColumns = {
         @JoinColumn(name = "CATALOG_ID", referencedColumnName = "CATALOG_ID"),
@@ -273,7 +270,6 @@ public class ProductOffering extends AbstractCatalogEntity implements Serializab
     })
     private List<ProductOfferingTerm> productOfferingTerm;
 
-    @Embedded
     @ElementCollection
     @CollectionTable(name = "CRI_PRODUCT_OFFER_R_PRICE", joinColumns = {
         @JoinColumn(name = "CATALOG_ID", referencedColumnName = "CATALOG_ID"),

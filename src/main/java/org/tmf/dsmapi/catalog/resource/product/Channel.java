@@ -1,10 +1,11 @@
 package org.tmf.dsmapi.catalog.resource.product;
 
+import org.codehaus.jackson.map.annotate.JsonSerialize;
+import org.tmf.dsmapi.commons.Utilities;
+
 import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
-import org.codehaus.jackson.map.annotate.JsonSerialize;
-import org.tmf.dsmapi.commons.Utilities;
 
 /**
  *
@@ -22,13 +23,13 @@ import org.tmf.dsmapi.commons.Utilities;
 public class Channel implements Serializable {
     public final static long serialVersionUID = 1L;
 
-    @Column(name = "CHANNEL_ID", nullable = true)
+    @Column(name = "CHANNEL_ID")
     private String id;
 
-    @Column(name = "CHANNEL_HREF", nullable = true)
+    @Column(name = "CHANNEL_HREF")
     private String href;
 
-    @Column(name = "CHANNEL_NAME", nullable = true)
+    @Column(name = "CHANNEL_NAME")
     private String name;
 
     public Channel() {
@@ -76,19 +77,8 @@ public class Channel implements Serializable {
         }
 
         final Channel other = (Channel) object;
-        if (Utilities.areEqual(this.id, other.id) == false) {
-            return false;
-        }
+        return Utilities.areEqual(this.id, other.id) && Utilities.areEqual(this.href, other.href) && Utilities.areEqual(this.name, other.name);
 
-        if (Utilities.areEqual(this.href, other.href) == false) {
-            return false;
-        }
-
-        if (Utilities.areEqual(this.name, other.name) == false) {
-            return false;
-        }
-
-        return true;
     }
 
     @Override

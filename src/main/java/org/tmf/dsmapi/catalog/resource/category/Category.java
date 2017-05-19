@@ -1,5 +1,12 @@
 package org.tmf.dsmapi.catalog.resource.category;
 
+import org.codehaus.jackson.annotate.JsonIgnore;
+import org.codehaus.jackson.map.annotate.JsonSerialize;
+import org.tmf.dsmapi.catalog.resource.AbstractCatalogEntity;
+import org.tmf.dsmapi.catalog.resource.LifecycleStatus;
+import org.tmf.dsmapi.catalog.resource.TimeRange;
+import org.tmf.dsmapi.commons.Utilities;
+
 import java.io.Serializable;
 import java.util.Date;
 import java.util.logging.Level;
@@ -7,12 +14,6 @@ import java.util.logging.Logger;
 import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;
 import javax.xml.bind.annotation.XmlRootElement;
-import org.codehaus.jackson.annotate.JsonIgnore;
-import org.codehaus.jackson.map.annotate.JsonSerialize;
-import org.tmf.dsmapi.catalog.resource.AbstractCatalogEntity;
-import org.tmf.dsmapi.catalog.resource.LifecycleStatus;
-import org.tmf.dsmapi.catalog.resource.TimeRange;
-import org.tmf.dsmapi.commons.Utilities;
 
 /**
  *
@@ -43,10 +44,10 @@ public class Category extends AbstractCatalogEntity implements Serializable {
 
     private static final Logger logger = Logger.getLogger(Category.class.getName());
 
-    @Column(name = "PARENT_ID", nullable = true)
+    @Column(name = "PARENT_ID")
     private String parentId;
 
-    @Column(name = "IS_ROOT", nullable = true)
+    @Column(name = "IS_ROOT")
     private Boolean isRoot;
 
     public Category() {
@@ -82,20 +83,13 @@ public class Category extends AbstractCatalogEntity implements Serializable {
 
     @Override
     public boolean equals(Object object) {
-        if (object == null || getClass() != object.getClass() || super.equals(object) == false) {
+        if (object == null || getClass() != object.getClass() || !super.equals(object)) {
             return false;
         }
 
         final Category other = (Category) object;
-        if (Utilities.areEqual(this.parentId, other.parentId) == false) {
-            return false;
-        }
+        return Utilities.areEqual(this.parentId, other.parentId) && Utilities.areEqual(this.isRoot, other.isRoot);
 
-        if (Utilities.areEqual(this.isRoot, other.isRoot) == false) {
-            return false;
-        }
-
-        return true;
     }
 
     @Override
@@ -140,11 +134,11 @@ public class Category extends AbstractCatalogEntity implements Serializable {
     public boolean isValid() {
         logger.log(Level.FINE, "Category:isValid ()");
 
-        if (super.isValid() == false) {
+        if (!super.isValid()) {
             return false;
         }
 
-        if (this.isRoot == Boolean.FALSE && Utilities.hasValue(parentId) == false) {
+        if (this.isRoot == Boolean.FALSE && !Utilities.hasValue(parentId)) {
             logger.log(Level.FINE, " invalid: parentId must be specified when isRoot is false");
             return false;
         }

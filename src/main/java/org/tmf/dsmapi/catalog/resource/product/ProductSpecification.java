@@ -1,18 +1,5 @@
 package org.tmf.dsmapi.catalog.resource.product;
 
-import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.persistence.CollectionTable;
-import javax.persistence.Column;
-import javax.persistence.ElementCollection;
-import javax.persistence.Embedded;
-import javax.persistence.JoinColumn;
-import javax.persistence.MappedSuperclass;
-import javax.xml.bind.annotation.XmlRootElement;
 import org.codehaus.jackson.annotate.JsonIgnore;
 import org.codehaus.jackson.annotate.JsonProperty;
 import org.codehaus.jackson.map.annotate.JsonSerialize;
@@ -27,6 +14,19 @@ import org.tmf.dsmapi.catalog.resource.service.ServiceSpecification;
 import org.tmf.dsmapi.catalog.resource.specification.SpecificationRelationship;
 import org.tmf.dsmapi.commons.Utilities;
 import org.tmf.dsmapi.commons.annotation.EntityReferenceProperty;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.persistence.CollectionTable;
+import javax.persistence.Column;
+import javax.persistence.ElementCollection;
+import javax.persistence.JoinColumn;
+import javax.persistence.MappedSuperclass;
+import javax.xml.bind.annotation.XmlRootElement;
 
 /**
  *
@@ -197,7 +197,6 @@ public class ProductSpecification extends AbstractCatalogEntity implements Seria
     @Column(name = "BRAND", nullable = true)
     private String brand;
 
-    @Embedded
     @ElementCollection
     @CollectionTable(name = "CRI_PRODUCT_SPEC_R_ATTACHMENT", joinColumns = {
         @JoinColumn(name = "CATALOG_ID", referencedColumnName = "CATALOG_ID"),
@@ -207,7 +206,6 @@ public class ProductSpecification extends AbstractCatalogEntity implements Seria
     })
     private List<Attachment> attachment;
 
-    @Embedded
     @ElementCollection
     @CollectionTable(name = "CRI_PRODUCT_SPEC_R_PARTY", joinColumns = {
         @JoinColumn(name = "CATALOG_ID", referencedColumnName = "CATALOG_ID"),
@@ -217,7 +215,6 @@ public class ProductSpecification extends AbstractCatalogEntity implements Seria
     })
     private List<RelatedParty> relatedParty;
 
-    @Embedded
     @ElementCollection
     @CollectionTable(name = "CRI_PRODUCT_SPEC_R_PRODUCT_SPEC", joinColumns = {
         @JoinColumn(name = "CATALOG_ID", referencedColumnName = "CATALOG_ID"),
@@ -228,7 +225,6 @@ public class ProductSpecification extends AbstractCatalogEntity implements Seria
     @EntityReferenceProperty(classId=ProductSpecification.class)
     private List<BundledProductReference> bundledProductSpecification;
 
-    @Embedded
     @ElementCollection
     @CollectionTable(name = "CRI_PRODUCT_SPEC_R_RELATIONSHIP", joinColumns = {
         @JoinColumn(name = "CATALOG_ID", referencedColumnName = "CATALOG_ID"),
@@ -238,7 +234,6 @@ public class ProductSpecification extends AbstractCatalogEntity implements Seria
     })
     private List<SpecificationRelationship> productSpecificationRelationship;
 
-    @Embedded
     @ElementCollection
     @CollectionTable(name = "CRI_PRODUCT_SPEC_R_SERVICE_SPEC", joinColumns = {
         @JoinColumn(name = "CATALOG_ID", referencedColumnName = "CATALOG_ID"),
@@ -249,7 +244,6 @@ public class ProductSpecification extends AbstractCatalogEntity implements Seria
     @EntityReferenceProperty(classId=ServiceSpecification.class)
     private List<CatalogReference> serviceSpecification;
 
-    @Embedded
     @ElementCollection
     @CollectionTable(name = "CRI_PRODUCT_SPEC_R_RESOURCE_SPEC", joinColumns = {
         @JoinColumn(name = "CATALOG_ID", referencedColumnName = "CATALOG_ID"),
@@ -260,7 +254,6 @@ public class ProductSpecification extends AbstractCatalogEntity implements Seria
     @EntityReferenceProperty(classId=ResourceSpecification.class)
     private List<CatalogReference> resourceSpecification;
 
-    @Embedded
     @ElementCollection
     @CollectionTable(name = "CRI_PRODUCT_SPEC_R_CHARACTERISTIC", joinColumns = {
         @JoinColumn(name = "CATALOG_ID", referencedColumnName = "CATALOG_ID"),

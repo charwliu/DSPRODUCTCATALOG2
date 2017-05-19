@@ -121,7 +121,7 @@
 		{
 			"id": "00213592-ca5b-f86a-be95-ceb890dbd99e",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate?depth=2&fields=category",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate?depth=2&fields=category",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -176,7 +176,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "[{\"id\":\"3\",\"category\":[{\"id\":\"12\",\"version\":\"2.0\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/12\",\"name\":\"Cloud offerings\"}]},{\"id\":\"RCAN-001\",\"category\":[{\"id\":\"CATGR15\",\"version\":\"2.7\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR15:(2.7)\",\"name\":\"Cloud offerings\"},{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud Services\",\"description\":\"A category to hold all available cloud service offers\",\"lastUpdate\":\"2014-10-27T14:32:43.361+0000\",\"lifecycleStatus\":\"In Design\",\"isRoot\":true}]},{\"id\":\"RCAN-001\",\"category\":[{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud Services\",\"description\":\"A category to hold all available cloud service offers\",\"lastUpdate\":\"2014-10-27T14:32:43.361+0000\",\"lifecycleStatus\":\"In Design\",\"isRoot\":true},{\"id\":\"15\",\"version\":\"2.7\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/15\",\"name\":\"Cloud offerings\"}]}]",
+					"text": "[{\"id\":\"3\",\"category\":[{\"id\":\"12\",\"version\":\"2.0\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/12\",\"name\":\"Cloud offerings\"}]},{\"id\":\"RCAN-001\",\"category\":[{\"id\":\"CATGR15\",\"version\":\"2.7\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR15:(2.7)\",\"name\":\"Cloud offerings\"},{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud Services\",\"description\":\"A category to hold all available cloud service offers\",\"lastUpdate\":\"2014-10-27T14:32:43.361+0000\",\"lifecycleStatus\":\"In Design\",\"isRoot\":true}]},{\"id\":\"RCAN-001\",\"category\":[{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud Services\",\"description\":\"A category to hold all available cloud service offers\",\"lastUpdate\":\"2014-10-27T14:32:43.361+0000\",\"lifecycleStatus\":\"In Design\",\"isRoot\":true},{\"id\":\"15\",\"version\":\"2.7\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/15\",\"name\":\"Cloud offerings\"}]}]",
 					"language": "javascript",
 					"rawDataType": "text",
 					"state": {
@@ -188,7 +188,7 @@
 					"id": "3d2b40f2-cac0-24db-ec83-fce9b53a077e",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate?depth=2&fields=category",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate?depth=2&fields=category",
 						"pathVariables": {},
 						"data": [],
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -206,7 +206,7 @@
 		{
 			"id": "04142918-3b3b-d9d0-4853-a92ef09880c3",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate?depth=3",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate?depth=3",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "GET",
@@ -260,7 +260,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "[{\"id\":\"3\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/3:(2.0)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-25T15:33:28.021+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"12\",\"version\":\"2.0\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/12\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"13\",\"version\":\"1.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 1\"}},{\"id\":\"RCAN-001\",\"version\":\"1.90\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/RCAN-001:(1.90)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-27T14:52:39.553+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"CATGR15\",\"version\":\"2.7\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR15:(2.7)\",\"name\":\"Cloud offerings\"},{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud Services\",\"description\":\"A category to hold all available cloud service offers\",\"lastUpdate\":\"2014-10-27T14:32:43.361+0000\",\"lifecycleStatus\":\"In Design\",\"isRoot\":true}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"RSPEC22\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\"name\":\"iPhone 42\",\"description\":\"Siri works on this iPhone\",\"lastUpdate\":\"2014-10-27T14:42:05.454+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"brand\":\"Apple\",\"attachment\":[{\"id\":\"22\",\"href\":\"http://serverlocation:port/documentManagment/attachment/22\",\"type\":\"Picture\",\"url\":\"http://xxxxx\"}],\"relatedParty\":[{\"id\":\"1234\",\"href\":\"http ://serverLocation:port/partyManagement/partyRole/1234\",\"role\":\"Owner\"}],\"resourceSpecificationRelationship\":[{\"id\":\"RSPEC23\",\"href\":\" http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceSpecification/RSPEC23\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"type\":\"dependency\"}],\"resourceSpecCharacteristic\":[{\"id\":\"54\",\"name\":\"Screen Size\",\"description\":\"Screen size\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"valueType\":\"number\",\"configurable\":false,\"resourceSpecCharRelationship\":[{\"id\":\"43\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"type\":\"dependency\"}],\"resourceSpecCharacteristicValue\":[{\"valueType\":\"number\",\"value\":\"4.2\",\"unitOfMeasure\":\"inches\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":true}]},{\"id\":\"55\",\"name\":\"Colour\",\"description\":\"Colour\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"valueType\":\"string\",\"configurable\":true,\"resourceSpecCharacteristicValue\":[{\"valueType\":\"string\",\"value\":\"Black\",\"unitOfMeasure\":\"\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":true},{\"valueType\":\"string\",\"value\":\"White\",\"unitOfMeasure\":\"\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":false}]}]}},{\"id\":\"RCAN-001\",\"version\":\"1.10\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/RCAN-001:(1.10)\",\"name\":\"Virtual Storage Medium-New\",\"description\":\"Virtual Storage Medium-new\",\"lastUpdate\":\"2014-10-27T14:45:10.174+0000\",\"lifecycleStatus\":\"Launched\",\"validFor\":{\"endDateTime\":\"2015-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud Services\",\"description\":\"A category to hold all available cloud service offers\",\"lastUpdate\":\"2014-10-27T14:32:43.361+0000\",\"lifecycleStatus\":\"In Design\",\"isRoot\":true},{\"id\":\"15\",\"version\":\"2.7\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/15\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"RSPEC22\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\"name\":\"iPhone 42\",\"description\":\"Siri works on this iPhone\",\"lastUpdate\":\"2014-10-27T14:42:05.454+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"brand\":\"Apple\",\"attachment\":[{\"id\":\"22\",\"href\":\"http://serverlocation:port/documentManagment/attachment/22\",\"type\":\"Picture\",\"url\":\"http://xxxxx\"}],\"relatedParty\":[{\"id\":\"1234\",\"href\":\"http ://serverLocation:port/partyManagement/partyRole/1234\",\"role\":\"Owner\"}],\"resourceSpecificationRelationship\":[{\"id\":\"RSPEC23\",\"href\":\" http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceSpecification/RSPEC23\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"type\":\"dependency\"}],\"resourceSpecCharacteristic\":[{\"id\":\"54\",\"name\":\"Screen Size\",\"description\":\"Screen size\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"valueType\":\"number\",\"configurable\":false,\"resourceSpecCharRelationship\":[{\"id\":\"43\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"type\":\"dependency\"}],\"resourceSpecCharacteristicValue\":[{\"valueType\":\"number\",\"value\":\"4.2\",\"unitOfMeasure\":\"inches\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":true}]},{\"id\":\"55\",\"name\":\"Colour\",\"description\":\"Colour\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"valueType\":\"string\",\"configurable\":true,\"resourceSpecCharacteristicValue\":[{\"valueType\":\"string\",\"value\":\"Black\",\"unitOfMeasure\":\"\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":true},{\"valueType\":\"string\",\"value\":\"White\",\"unitOfMeasure\":\"\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":false}]}]}}]",
+					"text": "[{\"id\":\"3\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/3:(2.0)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-25T15:33:28.021+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"12\",\"version\":\"2.0\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/12\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"13\",\"version\":\"1.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 1\"}},{\"id\":\"RCAN-001\",\"version\":\"1.90\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/RCAN-001:(1.90)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-27T14:52:39.553+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"CATGR15\",\"version\":\"2.7\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR15:(2.7)\",\"name\":\"Cloud offerings\"},{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud Services\",\"description\":\"A category to hold all available cloud service offers\",\"lastUpdate\":\"2014-10-27T14:32:43.361+0000\",\"lifecycleStatus\":\"In Design\",\"isRoot\":true}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"RSPEC22\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\"name\":\"iPhone 42\",\"description\":\"Siri works on this iPhone\",\"lastUpdate\":\"2014-10-27T14:42:05.454+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"brand\":\"Apple\",\"attachment\":[{\"id\":\"22\",\"href\":\"http://serverlocation:port/documentManagment/attachment/22\",\"type\":\"Picture\",\"url\":\"http://xxxxx\"}],\"relatedParty\":[{\"id\":\"1234\",\"href\":\"http ://serverLocation:port/partyManagement/partyRole/1234\",\"role\":\"Owner\"}],\"resourceSpecificationRelationship\":[{\"id\":\"RSPEC23\",\"href\":\" http://localhost:8080/DSProductCatalog/catalogManagement/resourceSpecification/RSPEC23\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"type\":\"dependency\"}],\"resourceSpecCharacteristic\":[{\"id\":\"54\",\"name\":\"Screen Size\",\"description\":\"Screen size\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"valueType\":\"number\",\"configurable\":false,\"resourceSpecCharRelationship\":[{\"id\":\"43\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"type\":\"dependency\"}],\"resourceSpecCharacteristicValue\":[{\"valueType\":\"number\",\"value\":\"4.2\",\"unitOfMeasure\":\"inches\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":true}]},{\"id\":\"55\",\"name\":\"Colour\",\"description\":\"Colour\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"valueType\":\"string\",\"configurable\":true,\"resourceSpecCharacteristicValue\":[{\"valueType\":\"string\",\"value\":\"Black\",\"unitOfMeasure\":\"\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":true},{\"valueType\":\"string\",\"value\":\"White\",\"unitOfMeasure\":\"\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":false}]}]}},{\"id\":\"RCAN-001\",\"version\":\"1.10\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/RCAN-001:(1.10)\",\"name\":\"Virtual Storage Medium-New\",\"description\":\"Virtual Storage Medium-new\",\"lastUpdate\":\"2014-10-27T14:45:10.174+0000\",\"lifecycleStatus\":\"Launched\",\"validFor\":{\"endDateTime\":\"2015-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud Services\",\"description\":\"A category to hold all available cloud service offers\",\"lastUpdate\":\"2014-10-27T14:32:43.361+0000\",\"lifecycleStatus\":\"In Design\",\"isRoot\":true},{\"id\":\"15\",\"version\":\"2.7\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/15\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"RSPEC22\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\"name\":\"iPhone 42\",\"description\":\"Siri works on this iPhone\",\"lastUpdate\":\"2014-10-27T14:42:05.454+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"brand\":\"Apple\",\"attachment\":[{\"id\":\"22\",\"href\":\"http://serverlocation:port/documentManagment/attachment/22\",\"type\":\"Picture\",\"url\":\"http://xxxxx\"}],\"relatedParty\":[{\"id\":\"1234\",\"href\":\"http ://serverLocation:port/partyManagement/partyRole/1234\",\"role\":\"Owner\"}],\"resourceSpecificationRelationship\":[{\"id\":\"RSPEC23\",\"href\":\" http://localhost:8080/DSProductCatalog/catalogManagement/resourceSpecification/RSPEC23\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"type\":\"dependency\"}],\"resourceSpecCharacteristic\":[{\"id\":\"54\",\"name\":\"Screen Size\",\"description\":\"Screen size\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"valueType\":\"number\",\"configurable\":false,\"resourceSpecCharRelationship\":[{\"id\":\"43\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"type\":\"dependency\"}],\"resourceSpecCharacteristicValue\":[{\"valueType\":\"number\",\"value\":\"4.2\",\"unitOfMeasure\":\"inches\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":true}]},{\"id\":\"55\",\"name\":\"Colour\",\"description\":\"Colour\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"valueType\":\"string\",\"configurable\":true,\"resourceSpecCharacteristicValue\":[{\"valueType\":\"string\",\"value\":\"Black\",\"unitOfMeasure\":\"\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":true},{\"valueType\":\"string\",\"value\":\"White\",\"unitOfMeasure\":\"\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":false}]}]}}]",
 					"language": "javascript",
 					"rawDataType": "text",
 					"state": {
@@ -272,7 +272,7 @@
 					"id": "82f60012-2956-839b-e641-6a52474541ca",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate?depth=3",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate?depth=3",
 						"pathVariables": {},
 						"data": [],
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -292,7 +292,7 @@
 		{
 			"id": "043adea6-6813-f247-9aeb-2398cfcacb76",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/42",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/42",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -365,7 +365,7 @@
 					"id": "16233287-9c53-4e89-ec7f-eb046a74c37b",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/42",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/42",
 						"pathVariables": {},
 						"data": "{\n\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCandidate/42\",\n\t\"name\": \"Virtual Storage Medium\",\n\t\"description\": \"Virtual Storage Medium\",\n\t\"version\": \"2.0\",\n\t\"lastUpdate\": \"2013-04-19T16:42:23-04:00\",\n\t\"lifecycleStatus\": \"Active\",\n\t\"validFor\": {\n\t\t\"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n\t\t\"endDateTime\": \"2013-06-19T00:00:00-04:00\"\n\t},\n\t\"category\": [\n\t\t{\n\t\t\t\"id\": \"12\",\n\t\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCategory/12\",\n\t\t\t\"version\": \"2.0\",\n\t\t\t\"name\": \"Cloud offerings\"\n\t\t}\n\t],\n\t\"serviceLevelAgreement\": {\n\t\t\"id\": \"28\",\n\t\t\"href\": \"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\n\t\t\"name\": \"Standard SLA\"\n\t},\n\t\"resourceSpecification\": {\n\t\t\"id\": \"13\",\n\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\n\t\t\"name\": \"specification 1\",\n\t\t\"version\": \"1.1\"\n\t}\n}\n",
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -384,7 +384,7 @@
 		{
 			"id": "0faa1b49-9a07-5542-c6f4-26398212517a",
 			"headers": "Accept: text/plain\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/admin/count",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/admin/count",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -451,7 +451,7 @@
 					"id": "7a88558e-eef8-6bd2-5b33-d163e4f08951",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/admin/count",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/admin/count",
 						"pathVariables": {},
 						"data": [],
 						"headers": "Accept: text/plain\n",
@@ -469,7 +469,7 @@
 		{
 			"id": "28f308c9-1e94-a487-d0ad-3a6c511b4885",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.10)",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.10)",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "PATCH",
@@ -542,7 +542,7 @@
 					"id": "8751e536-f930-fb18-1192-6c55a41bc96f",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.10)",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.10)",
 						"pathVariables": {},
 						"data": "{\n\t\"version\": \"1.10\",\n  \"lifecycleStatus\": \"Launched\",\n\t\"category\": [\n\t\t{\n\t\t\t\"id\": \"14\",\n\t\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCategory/14\",\n\t\t\t\"version\": \"2.1\",\n\t\t\t\"name\": \"Cloud offerings-modified\"\n\t\t},\n      {\n\t\t\t\"id\": \"15\",\n\t\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCategory/15\",\n\t\t\t\"version\": \"2.7\",\n\t\t\t\"name\": \"Cloud offerings\"\n\t\t}\n\t]\n}\n",
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -561,7 +561,7 @@
 		{
 			"id": "2da6618a-4804-80b6-530a-60adb3b41e28",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -616,7 +616,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "{\"id\":\"RCAN-001\",\"version\":\"1.90\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/RCAN-001:(1.90)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-24T21:24:13.031+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"12\",\"version\":\"2.0\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/12\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"13\",\"version\":\"1.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 1\"}}",
+					"text": "{\"id\":\"RCAN-001\",\"version\":\"1.90\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/RCAN-001:(1.90)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-24T21:24:13.031+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"12\",\"version\":\"2.0\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/12\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"13\",\"version\":\"1.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 1\"}}",
 					"language": "javascript",
 					"rawDataType": "text",
 					"state": {
@@ -628,7 +628,7 @@
 					"id": "77e66866-fa14-6aaf-3b09-fb28529d1e84",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate",
 						"pathVariables": {},
 						"data": "{\n  \"id\": \"RCAN-001\",\n\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCandidate/42\",\n\t\"name\": \"Virtual Storage Medium\",\n\t\"description\": \"Virtual Storage Medium\",\n\t\"version\": \"1.90\",\n\t\"lastUpdate\": \"2013-04-19T16:42:23-04:00\",\n\t\"lifecycleStatus\": \"Active\",\n\t\"validFor\": {\n\t\t\"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n\t\t\"endDateTime\": \"2013-06-19T00:00:00-04:00\"\n\t},\n\t\"category\": [\n\t\t{\n\t\t\t\"id\": \"12\",\n\t\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCategory/12\",\n\t\t\t\"version\": \"2.0\",\n\t\t\t\"name\": \"Cloud offerings\"\n\t\t}\n\t],\n\t\"serviceLevelAgreement\": {\n\t\t\"id\": \"28\",\n\t\t\"href\": \"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\n\t\t\"name\": \"Standard SLA\"\n\t},\n\t\"resourceSpecification\": {\n\t\t\"id\": \"13\",\n\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\n\t\t\"name\": \"specification 1\",\n\t\t\"version\": \"1.1\"\n\t}\n}\n",
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -647,7 +647,7 @@
 		{
 			"id": "306994f6-b8b5-591d-027d-b536a427364d",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate?lifecycleStatus.gte=Active&resourceSpecification.version.gt=2.01",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate?lifecycleStatus.gte=Active&resourceSpecification.version.gt=2.01",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -708,7 +708,7 @@
 					"id": "c76c97bf-aff9-e6a8-2eb8-fc08c40e7193",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate?lifecycleStatus.gte=Active&resourceSpecification.version.gt=2.01",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate?lifecycleStatus.gte=Active&resourceSpecification.version.gt=2.01",
 						"pathVariables": {},
 						"data": [],
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -726,7 +726,7 @@
 		{
 			"id": "3666056d-5878-cefb-22c5-095bd22d20a8",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "PUT",
@@ -781,7 +781,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "{\"id\":\"RCAN-001\",\"version\":\"1.90\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/RCAN-001:(1.90)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-25T15:34:31.326+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"13\",\"version\":\"2.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/13\",\"name\":\"Cloud offerings-modified\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"14\",\"version\":\"1.10\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 12\"}}",
+					"text": "{\"id\":\"RCAN-001\",\"version\":\"1.90\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/RCAN-001:(1.90)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-25T15:34:31.326+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"13\",\"version\":\"2.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/13\",\"name\":\"Cloud offerings-modified\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"14\",\"version\":\"1.10\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 12\"}}",
 					"language": "javascript",
 					"rawDataType": "text",
 					"state": {
@@ -793,7 +793,7 @@
 					"id": "05ca50fe-23db-6990-f98f-559d4112bdb1",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001",
 						"pathVariables": {},
 						"data": "{\n  \"id\": \"RCAN-001\",\n\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCandidate/42\",\n\t\"name\": \"Virtual Storage Medium\",\n\t\"description\": \"Virtual Storage Medium\",\n\t\"version\": \"1.90\",\n\t\"lastUpdate\": \"2013-04-19T16:42:23-04:00\",\n\t\"lifecycleStatus\": \"Active\",\n\t\"validFor\": {\n\t\t\"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n\t\t\"endDateTime\": \"2013-06-19T00:00:00-04:00\"\n\t},\n\t\"category\": [\n\t\t{\n\t\t\t\"id\": \"13\",\n\t\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCategory/13\",\n\t\t\t\"version\": \"2.1\",\n\t\t\t\"name\": \"Cloud offerings-modified\"\n\t\t}\n\t],\n\t\"serviceLevelAgreement\": {\n\t\t\"id\": \"28\",\n\t\t\"href\": \"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\n\t\t\"name\": \"Standard SLA\"\n\t},\n\t\"resourceSpecification\": {\n\t\t\"id\": \"14\",\n\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\n\t\t\"name\": \"specification 12\",\n\t\t\"version\": \"1.10\"\n\t}\n}\n",
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -812,7 +812,7 @@
 		{
 			"id": "3c8e8e7e-00a0-c45b-a3a7-8a0623e7d203",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.10)",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.10)",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "PATCH",
@@ -867,7 +867,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "{\"id\":\"RCAN-001\",\"version\":\"1.10\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/RCAN-001:(1.10)\",\"name\":\"Virtual Storage Medium-New\",\"description\":\"Virtual Storage Medium-new\",\"lastUpdate\":\"2014-10-27T14:17:54.740+0000\",\"lifecycleStatus\":\"Launched\",\"validFor\":{\"endDateTime\":\"2015-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"14\",\"version\":\"2.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/14\",\"name\":\"Cloud offerings-modified\"},{\"id\":\"15\",\"version\":\"2.7\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/15\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"24\",\"version\":\"1.11\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/24\",\"name\":\"specification 14\"}}",
+					"text": "{\"id\":\"RCAN-001\",\"version\":\"1.10\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/RCAN-001:(1.10)\",\"name\":\"Virtual Storage Medium-New\",\"description\":\"Virtual Storage Medium-new\",\"lastUpdate\":\"2014-10-27T14:17:54.740+0000\",\"lifecycleStatus\":\"Launched\",\"validFor\":{\"endDateTime\":\"2015-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"14\",\"version\":\"2.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/14\",\"name\":\"Cloud offerings-modified\"},{\"id\":\"15\",\"version\":\"2.7\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/15\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"24\",\"version\":\"1.11\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/24\",\"name\":\"specification 14\"}}",
 					"language": "javascript",
 					"rawDataType": "text",
 					"state": {
@@ -879,7 +879,7 @@
 					"id": "8e6931b4-e8e9-ed24-1794-3d335be6ad36",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.10)",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.10)",
 						"pathVariables": {},
 						"data": "{\n  \"lifecycleStatus\": \"Launched\",\n\t\"category\": [\n\t\t{\n\t\t\t\"id\": \"14\",\n\t\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCategory/14\",\n\t\t\t\"version\": \"2.1\",\n\t\t\t\"name\": \"Cloud offerings-modified\"\n\t\t},\n      {\n\t\t\t\"id\": \"15\",\n\t\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCategory/15\",\n\t\t\t\"version\": \"2.7\",\n\t\t\t\"name\": \"Cloud offerings\"\n\t\t}\n\t]\n}\n",
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -898,7 +898,7 @@
 		{
 			"id": "44ce580a-34f9-39e5-818a-6b6e5acc1940",
 			"headers": "Accept: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/admin/proto",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/admin/proto",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -965,7 +965,7 @@
 					"id": "0a375ae6-3dff-4ff7-dee0-a92b446fe63a",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/admin/proto",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/admin/proto",
 						"pathVariables": {},
 						"data": [],
 						"headers": "Accept: application/json\n",
@@ -983,7 +983,7 @@
 		{
 			"id": "4adc561a-2fc4-35e8-a6d4-b5ece14d0f22",
 			"headers": "Accept: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "GET",
@@ -1052,7 +1052,7 @@
 					"id": "a404b5b6-0553-2da8-8fa7-70519053d490",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate",
 						"pathVariables": {},
 						"data": [],
 						"headers": "Accept: application/json\n",
@@ -1073,7 +1073,7 @@
 		{
 			"id": "5287f395-b577-0701-20fa-d6aea31fa39a",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -1128,7 +1128,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "{\"id\":\"RCAN-001\",\"version\":\"1.9\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/RCAN-001:(1.9)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-24T21:21:48.467+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"12\",\"version\":\"2.0\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/12\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"13\",\"version\":\"1.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 1\"}}",
+					"text": "{\"id\":\"RCAN-001\",\"version\":\"1.9\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/RCAN-001:(1.9)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-24T21:21:48.467+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"12\",\"version\":\"2.0\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/12\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"13\",\"version\":\"1.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 1\"}}",
 					"language": "javascript",
 					"rawDataType": "text",
 					"state": {
@@ -1140,7 +1140,7 @@
 					"id": "0e509fb8-90b5-341d-f256-bb1d348e7ffa",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate",
 						"pathVariables": {},
 						"data": "{\n  \"id\": \"RCAN-001\",\n\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCandidate/42\",\n\t\"name\": \"Virtual Storage Medium\",\n\t\"description\": \"Virtual Storage Medium\",\n\t\"version\": \"1.9\",\n\t\"lastUpdate\": \"2013-04-19T16:42:23-04:00\",\n\t\"lifecycleStatus\": \"Active\",\n\t\"validFor\": {\n\t\t\"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n\t\t\"endDateTime\": \"2013-06-19T00:00:00-04:00\"\n\t},\n\t\"category\": [\n\t\t{\n\t\t\t\"id\": \"12\",\n\t\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCategory/12\",\n\t\t\t\"version\": \"2.0\",\n\t\t\t\"name\": \"Cloud offerings\"\n\t\t}\n\t],\n\t\"serviceLevelAgreement\": {\n\t\t\"id\": \"28\",\n\t\t\"href\": \"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\n\t\t\"name\": \"Standard SLA\"\n\t},\n\t\"resourceSpecification\": {\n\t\t\"id\": \"13\",\n\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\n\t\t\"name\": \"specification 1\",\n\t\t\"version\": \"1.1\"\n\t}\n}\n",
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -1159,7 +1159,7 @@
 		{
 			"id": "5c880488-8955-9d78-18c2-5b6a1011e6ee",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -1180,7 +1180,7 @@
 		{
 			"id": "6a060aa2-12f2-4ea9-b251-1d9f83f789d9",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/category",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/category",
 			"pathVariables": {},
 			"preRequestScript": "",
 			"method": "POST",
@@ -1234,7 +1234,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud Services\",\"description\":\"A category to hold all available cloud service offers\",\"lastUpdate\":\"2014-10-27T14:32:43.361+0000\",\"lifecycleStatus\":\"In Design\",\"isRoot\":true}",
+					"text": "{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud Services\",\"description\":\"A category to hold all available cloud service offers\",\"lastUpdate\":\"2014-10-27T14:32:43.361+0000\",\"lifecycleStatus\":\"In Design\",\"isRoot\":true}",
 					"language": "javascript",
 					"rawDataType": "text",
 					"state": {
@@ -1246,7 +1246,7 @@
 					"id": "5530cd44-ba84-813f-a5e0-1de922891d40",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/category",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/category",
 						"pathVariables": {},
 						"data": "{\n  \"id\":\"CATGR14\",\n  \"href\": \"http://serverlocation:port/catalogManagement/category/42\",\n  \"version\": \"2.1\",\n    \"lastUpdate\": \"2013-04-19T16:42:23-04:00\",\n    \"isRoot\": true,\n    \"name\": \"Cloud Services\",\n    \"description\": \"A category to hold all available cloud service offers\",\n  \"lifecycleStatus\": \"In Design\"\n}",
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -1267,7 +1267,7 @@
 		{
 			"id": "77b9e270-fdd1-6253-8d38-25a257c21900",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate?fields=id%2Cversion%2ClifecycleStatus%2ClastUpdate",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate?fields=id%2Cversion%2ClifecycleStatus%2ClastUpdate",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1334,7 +1334,7 @@
 					"id": "2d440c50-e6ef-ccfd-1740-c868cde32fe3",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate?fields=id%2Cversion%2ClifecycleStatus%2ClastUpdate",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate?fields=id%2Cversion%2ClifecycleStatus%2ClastUpdate",
 						"pathVariables": {},
 						"data": [],
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -1352,7 +1352,7 @@
 		{
 			"id": "79307334-347e-f5dd-825f-038c5066c1a3",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -1413,7 +1413,7 @@
 					"id": "bb2bf760-8f8f-5328-c22f-b3fedb628051",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate",
 						"pathVariables": {},
 						"data": "{\n  \"id\": \"RCAN-001\",\n\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCandidate/42\",\n\t\"name\": \"Virtual Storage Medium\",\n\t\"description\": \"Virtual Storage Medium\",\n\t\"version\": \"1.9\",\n\t\"lastUpdate\": \"2013-04-19T16:42:23-04:00\",\n\t\"lifecycleStatus\": \"Active\",\n\t\"validFor\": {\n\t\t\"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n\t\t\"endDateTime\": \"2013-06-19T00:00:00-04:00\"\n\t},\n\t\"category\": [\n\t\t{\n\t\t\t\"id\": \"12\",\n\t\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCategory/12\",\n\t\t\t\"version\": \"2.0\",\n\t\t\t\"name\": \"Cloud offerings\"\n\t\t}\n\t],\n\t\"serviceLevelAgreement\": {\n\t\t\"id\": \"28\",\n\t\t\"href\": \"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\n\t\t\"name\": \"Standard SLA\"\n\t},\n\t\"resourceSpecification\": {\n\t\t\"id\": \"13\",\n\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\n\t\t\"name\": \"specification 1\",\n\t\t\"version\": \"1.1\"\n\t}\n}\n",
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -1432,7 +1432,7 @@
 		{
 			"id": "89f82db9-c891-42b0-4c9c-5db4829082b0",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.10)",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.10)",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "PATCH",
@@ -1487,7 +1487,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "{\"id\":\"RCAN-001\",\"version\":\"1.10\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/RCAN-001:(1.10)\",\"name\":\"Virtual Storage Medium-New\",\"description\":\"Virtual Storage Medium-new\",\"lastUpdate\":\"2014-10-27T14:45:10.174+0000\",\"lifecycleStatus\":\"Launched\",\"validFor\":{\"endDateTime\":\"2015-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud offerings\"},{\"id\":\"15\",\"version\":\"2.7\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/15\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"RSPEC22\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\"name\":\"specification 22\"}}",
+					"text": "{\"id\":\"RCAN-001\",\"version\":\"1.10\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/RCAN-001:(1.10)\",\"name\":\"Virtual Storage Medium-New\",\"description\":\"Virtual Storage Medium-new\",\"lastUpdate\":\"2014-10-27T14:45:10.174+0000\",\"lifecycleStatus\":\"Launched\",\"validFor\":{\"endDateTime\":\"2015-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud offerings\"},{\"id\":\"15\",\"version\":\"2.7\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/15\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"RSPEC22\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\"name\":\"specification 22\"}}",
 					"language": "javascript",
 					"rawDataType": "text",
 					"state": {
@@ -1499,9 +1499,9 @@
 					"id": "f8f99a92-54bd-b1b6-e796-8b623eb4d511",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.10)",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.10)",
 						"pathVariables": {},
-						"data": "{\n    \"category\": [\n        {\n            \"id\": \"CATGR14\",\n            \"version\": \"2.1\",\n          \"href\": \"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR14:(2.1)\",\n            \"name\": \"Cloud offerings\"\n        },\n        {\n            \"id\": \"15\",\n            \"version\": \"2.7\",\n            \"href\": \"http://serverlocation:port/catalogManagement/resourceCategory/15\",\n            \"name\": \"Cloud offerings\"\n        }\n    ],\n    \"resourceSpecification\": {\n        \"id\": \"RSPEC22\",\n        \"version\": \"2.0\",\n        \"href\": \"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\n        \"name\": \"specification 22\"\n    }\n}",
+						"data": "{\n    \"category\": [\n        {\n            \"id\": \"CATGR14\",\n            \"version\": \"2.1\",\n          \"href\": \"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR14:(2.1)\",\n            \"name\": \"Cloud offerings\"\n        },\n        {\n            \"id\": \"15\",\n            \"version\": \"2.7\",\n            \"href\": \"http://serverlocation:port/catalogManagement/resourceCategory/15\",\n            \"name\": \"Cloud offerings\"\n        }\n    ],\n    \"resourceSpecification\": {\n        \"id\": \"RSPEC22\",\n        \"version\": \"2.0\",\n        \"href\": \"http://localhost:8080/DSProductCatalog/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\n        \"name\": \"specification 22\"\n    }\n}",
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
 						"dataMode": "raw",
 						"method": "PATCH",
@@ -1511,14 +1511,14 @@
 				}
 			],
 			"synced": false,
-			"rawModeData": "{\n    \"category\": [\n        {\n            \"id\": \"CATGR14\",\n            \"version\": \"2.1\",\n          \"href\": \"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR14:(2.1)\",\n            \"name\": \"Cloud offerings\"\n        },\n        {\n            \"id\": \"15\",\n            \"version\": \"2.7\",\n            \"href\": \"http://serverlocation:port/catalogManagement/resourceCategory/15\",\n            \"name\": \"Cloud offerings\"\n        }\n    ],\n    \"resourceSpecification\": {\n        \"id\": \"RSPEC22\",\n        \"version\": \"2.0\",\n        \"href\": \"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\n        \"name\": \"specification 22\"\n    }\n}",
+			"rawModeData": "{\n    \"category\": [\n        {\n            \"id\": \"CATGR14\",\n            \"version\": \"2.1\",\n          \"href\": \"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR14:(2.1)\",\n            \"name\": \"Cloud offerings\"\n        },\n        {\n            \"id\": \"15\",\n            \"version\": \"2.7\",\n            \"href\": \"http://serverlocation:port/catalogManagement/resourceCategory/15\",\n            \"name\": \"Cloud offerings\"\n        }\n    ],\n    \"resourceSpecification\": {\n        \"id\": \"RSPEC22\",\n        \"version\": \"2.0\",\n        \"href\": \"http://localhost:8080/DSProductCatalog/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\n        \"name\": \"specification 22\"\n    }\n}",
 			"owner": 0,
 			"folder": "a040aabd-494b-c206-42b5-afaee5879a22"
 		},
 		{
 			"id": "91be2736-fe19-4167-9fe0-c61c012fb30c",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.10)",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.10)",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "DELETE",
@@ -1579,7 +1579,7 @@
 					"id": "f3c4e9b1-e708-0330-c59b-dd9e01f63601",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.10)",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.10)",
 						"pathVariables": {},
 						"data": [],
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -1597,7 +1597,7 @@
 		{
 			"id": "95b8fb67-fcc5-afbd-4817-e2b7bc70b5a6",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -1652,7 +1652,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "{\"id\":\"8\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/8:(2.0)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-11-05T14:35:27.909+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"13\",\"version\":\"1.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 1\"}}",
+					"text": "{\"id\":\"8\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/8:(2.0)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-11-05T14:35:27.909+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"13\",\"version\":\"1.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 1\"}}",
 					"language": "javascript",
 					"rawDataType": "text",
 					"state": {
@@ -1664,7 +1664,7 @@
 					"id": "8e72b4cc-3d03-258c-1f0f-f827e06f183f",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate",
 						"pathVariables": {},
 						"data": "{\n\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCandidate/42\",\n\t\"name\": \"Virtual Storage Medium\",\n\t\"description\": \"Virtual Storage Medium\",\n\t\"version\": \"2.0\",\n\t\"lastUpdate\": \"2013-04-19T16:42:23-04:00\",\n\t\"lifecycleStatus\": \"Active\",\n\t\"validFor\": {\n\t\t\"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n\t\t\"endDateTime\": \"2013-06-19T00:00:00-04:00\"\n\t},\n\t\"serviceLevelAgreement\": {\n\t\t\"id\": \"28\",\n\t\t\"href\": \"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\n\t\t\"name\": \"Standard SLA\"\n\t},\n\t\"resourceSpecification\": {\n\t\t\"id\": \"13\",\n\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\n\t\t\"name\": \"specification 1\",\n\t\t\"version\": \"1.1\"\n\t}\n}\n",
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -1683,7 +1683,7 @@
 		{
 			"id": "98252eb1-f27d-9961-485d-61011c8e4eda",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/NONSUCH",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/NONSUCH",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "DELETE",
@@ -1750,7 +1750,7 @@
 					"id": "8ffc812d-9532-89f6-a9cf-e6e6767e181f",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/NONSUCH",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/NONSUCH",
 						"pathVariables": {},
 						"data": [],
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -1768,7 +1768,7 @@
 		{
 			"id": "9b3ae8f5-631c-9290-9432-2dcfedc1a9e6",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "PATCH",
@@ -1823,7 +1823,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "{\"id\":\"RCAN-001\",\"version\":\"1.90\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/RCAN-001:(1.90)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-27T14:52:39.553+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"CATGR15\",\"version\":\"2.7\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR15:(2.7)\",\"name\":\"Cloud offerings\"},{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"RSPEC22\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\"name\":\"specification 22\"}}",
+					"text": "{\"id\":\"RCAN-001\",\"version\":\"1.90\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/RCAN-001:(1.90)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-27T14:52:39.553+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"CATGR15\",\"version\":\"2.7\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR15:(2.7)\",\"name\":\"Cloud offerings\"},{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"RSPEC22\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\"name\":\"specification 22\"}}",
 					"language": "javascript",
 					"rawDataType": "text",
 					"state": {
@@ -1835,9 +1835,9 @@
 					"id": "81acf252-b339-fb29-bb81-18e8fc30e521",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001",
 						"pathVariables": {},
-						"data": "{\n    \"category\": [\n\n        {\n            \"id\": \"CATGR15\",\n            \"version\": \"2.7\",\n          \"href\": \"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR15:(2.7)\",\n            \"name\": \"Cloud offerings\"\n        },\n        {\n            \"id\": \"CATGR14\",\n            \"version\": \"2.1\",\n          \"href\": \"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR14:(2.1)\",\n            \"name\": \"Cloud offerings\"\n        }\n    ],\n    \"resourceSpecification\": {\n        \"id\": \"RSPEC22\",\n        \"version\": \"2.0\",\n        \"href\": \"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\n        \"name\": \"specification 22\"\n    }\n}",
+						"data": "{\n    \"category\": [\n\n        {\n            \"id\": \"CATGR15\",\n            \"version\": \"2.7\",\n          \"href\": \"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR15:(2.7)\",\n            \"name\": \"Cloud offerings\"\n        },\n        {\n            \"id\": \"CATGR14\",\n            \"version\": \"2.1\",\n          \"href\": \"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR14:(2.1)\",\n            \"name\": \"Cloud offerings\"\n        }\n    ],\n    \"resourceSpecification\": {\n        \"id\": \"RSPEC22\",\n        \"version\": \"2.0\",\n        \"href\": \"http://localhost:8080/DSProductCatalog/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\n        \"name\": \"specification 22\"\n    }\n}",
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
 						"dataMode": "raw",
 						"method": "PATCH",
@@ -1847,14 +1847,14 @@
 				}
 			],
 			"synced": false,
-			"rawModeData": "{\n    \"category\": [\n\n        {\n            \"id\": \"CATGR15\",\n            \"version\": \"2.7\",\n          \"href\": \"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR15:(2.7)\",\n            \"name\": \"Cloud offerings\"\n        },\n        {\n            \"id\": \"CATGR14\",\n            \"version\": \"2.1\",\n          \"href\": \"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR14:(2.1)\",\n            \"name\": \"Cloud offerings\"\n        }\n    ],\n    \"resourceSpecification\": {\n        \"id\": \"RSPEC22\",\n        \"version\": \"2.0\",\n        \"href\": \"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\n        \"name\": \"specification 22\"\n    }\n}",
+			"rawModeData": "{\n    \"category\": [\n\n        {\n            \"id\": \"CATGR15\",\n            \"version\": \"2.7\",\n          \"href\": \"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR15:(2.7)\",\n            \"name\": \"Cloud offerings\"\n        },\n        {\n            \"id\": \"CATGR14\",\n            \"version\": \"2.1\",\n          \"href\": \"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR14:(2.1)\",\n            \"name\": \"Cloud offerings\"\n        }\n    ],\n    \"resourceSpecification\": {\n        \"id\": \"RSPEC22\",\n        \"version\": \"2.0\",\n        \"href\": \"http://localhost:8080/DSProductCatalog/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\n        \"name\": \"specification 22\"\n    }\n}",
 			"owner": 0,
 			"folder": "a040aabd-494b-c206-42b5-afaee5879a22"
 		},
 		{
 			"id": "a21f2f6d-6081-651a-9fc2-72b2fffd49d7",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate?lifecycleStatus.gte=Active&resourceSpecification.version.gt=1.9",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate?lifecycleStatus.gte=Active&resourceSpecification.version.gt=1.9",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -1909,7 +1909,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "[{\"id\":\"RCAN-001\",\"version\":\"1.90\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/RCAN-001:(1.90)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-27T14:52:39.553+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"CATGR15\",\"version\":\"2.7\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR15:(2.7)\",\"name\":\"Cloud offerings\"},{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"RSPEC22\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\"name\":\"specification 22\"}},{\"id\":\"RCAN-001\",\"version\":\"1.10\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/RCAN-001:(1.10)\",\"name\":\"Virtual Storage Medium-New\",\"description\":\"Virtual Storage Medium-new\",\"lastUpdate\":\"2014-10-27T14:45:10.174+0000\",\"lifecycleStatus\":\"Launched\",\"validFor\":{\"endDateTime\":\"2015-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"15\",\"version\":\"2.7\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/15\",\"name\":\"Cloud offerings\"},{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"RSPEC22\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\"name\":\"specification 22\"}}]",
+					"text": "[{\"id\":\"RCAN-001\",\"version\":\"1.90\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/RCAN-001:(1.90)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-27T14:52:39.553+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"CATGR15\",\"version\":\"2.7\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR15:(2.7)\",\"name\":\"Cloud offerings\"},{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"RSPEC22\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\"name\":\"specification 22\"}},{\"id\":\"RCAN-001\",\"version\":\"1.10\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/RCAN-001:(1.10)\",\"name\":\"Virtual Storage Medium-New\",\"description\":\"Virtual Storage Medium-new\",\"lastUpdate\":\"2014-10-27T14:45:10.174+0000\",\"lifecycleStatus\":\"Launched\",\"validFor\":{\"endDateTime\":\"2015-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"15\",\"version\":\"2.7\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/15\",\"name\":\"Cloud offerings\"},{\"id\":\"CATGR14\",\"version\":\"2.1\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/category/CATGR14:(2.1)\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"RSPEC22\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\"name\":\"specification 22\"}}]",
 					"language": "javascript",
 					"rawDataType": "text",
 					"state": {
@@ -1921,7 +1921,7 @@
 					"id": "cff098cd-faa7-74e1-f624-603ad09b228f",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate?lifecycleStatus.gte=Active&resourceSpecification.version.gt=1.9",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate?lifecycleStatus.gte=Active&resourceSpecification.version.gt=1.9",
 						"pathVariables": {},
 						"data": [],
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -1939,7 +1939,7 @@
 		{
 			"id": "ab52a9cd-6171-7229-bbb4-2b08ba5ebb9d",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "DELETE",
@@ -2012,7 +2012,7 @@
 					"id": "dfa753d4-cdb0-d70f-df08-f5fee56d6de3",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate",
 						"pathVariables": {},
 						"data": [],
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -2030,7 +2030,7 @@
 		{
 			"id": "b3319153-4769-564e-6977-0f27ac2f4b08",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -2085,7 +2085,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "{\"id\":\"7\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/7:(2.0)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-11-05T14:34:37.055+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"13\",\"version\":\"1.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 1\"}}",
+					"text": "{\"id\":\"7\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/7:(2.0)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-11-05T14:34:37.055+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"13\",\"version\":\"1.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 1\"}}",
 					"language": "javascript",
 					"rawDataType": "text",
 					"state": {
@@ -2097,7 +2097,7 @@
 					"id": "f831e1d7-78aa-1d62-71c7-5598b651a38e",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate",
 						"pathVariables": {},
 						"data": "{\n\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCandidate/42\",\n\t\"name\": \"Virtual Storage Medium\",\n\t\"description\": \"Virtual Storage Medium\",\n\t\"version\": \"2.0\",\n\t\"lastUpdate\": \"2013-04-19T16:42:23-04:00\",\n\t\"lifecycleStatus\": \"Active\",\n\t\"validFor\": {\n\t\t\"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n\t\t\"endDateTime\": \"2013-06-19T00:00:00-04:00\"\n\t},\n\t\"category\": [\n\t],\n\t\"serviceLevelAgreement\": {\n\t\t\"id\": \"28\",\n\t\t\"href\": \"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\n\t\t\"name\": \"Standard SLA\"\n\t},\n\t\"resourceSpecification\": {\n\t\t\"id\": \"13\",\n\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\n\t\t\"name\": \"specification 1\",\n\t\t\"version\": \"1.1\"\n\t}\n}\n",
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -2116,7 +2116,7 @@
 		{
 			"id": "bd0fe299-7faf-297d-86f7-b028fcc9b846",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.9)",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.9)",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "PUT",
@@ -2171,7 +2171,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "{\"id\":\"RCAN-001\",\"version\":\"1.90\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/RCAN-001:(1.90)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-27T14:01:33.482+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"13\",\"version\":\"2.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/13\",\"name\":\"Cloud offerings-modified\"},{\"id\":\"15\",\"version\":\"2.9\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/15\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"14\",\"version\":\"1.10\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 12\"}}",
+					"text": "{\"id\":\"RCAN-001\",\"version\":\"1.90\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/RCAN-001:(1.90)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-27T14:01:33.482+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"13\",\"version\":\"2.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/13\",\"name\":\"Cloud offerings-modified\"},{\"id\":\"15\",\"version\":\"2.9\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/15\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"14\",\"version\":\"1.10\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 12\"}}",
 					"language": "javascript",
 					"rawDataType": "text",
 					"state": {
@@ -2183,7 +2183,7 @@
 					"id": "b1eb988d-1a08-3f91-5433-1e0cce06c2a6",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.90)",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.90)",
 						"pathVariables": {},
 						"data": "{\n  \"id\": \"RCAN-001\",\n\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCandidate/42\",\n\t\"name\": \"Virtual Storage Medium\",\n\t\"description\": \"Virtual Storage Medium\",\n\t\"version\": \"1.90\",\n\t\"lastUpdate\": \"2013-04-19T16:42:23-04:00\",\n\t\"lifecycleStatus\": \"Active\",\n\t\"validFor\": {\n\t\t\"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n\t\t\"endDateTime\": \"2013-06-19T00:00:00-04:00\"\n\t},\n\t\"category\": [\n\t\t{\n\t\t\t\"id\": \"13\",\n\t\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCategory/13\",\n\t\t\t\"version\": \"2.1\",\n\t\t\t\"name\": \"Cloud offerings-modified\"\n\t\t},\n      \t\t{\n\t\t\t\"id\": \"15\",\n\t\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCategory/15\",\n\t\t\t\"version\": \"2.9\",\n\t\t\t\"name\": \"Cloud offerings\"\n\t\t}\n\t],\n\t\"serviceLevelAgreement\": {\n\t\t\"id\": \"28\",\n\t\t\"href\": \"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\n\t\t\"name\": \"Standard SLA\"\n\t},\n\t\"resourceSpecification\": {\n\t\t\"id\": \"14\",\n\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\n\t\t\"name\": \"specification 12\",\n\t\t\"version\": \"1.10\"\n\t}\n}\n",
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -2202,7 +2202,7 @@
 		{
 			"id": "c4a2a596-8ea9-1b34-e27b-f5307655ad92",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceSpecification",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceSpecification",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "POST",
@@ -2257,7 +2257,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "{\"id\":\"RSPEC22\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\"name\":\"iPhone 42\",\"description\":\"Siri works on this iPhone\",\"lastUpdate\":\"2014-10-27T14:42:05.454+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"brand\":\"Apple\",\"attachment\":[{\"id\":\"22\",\"href\":\"http://serverlocation:port/documentManagment/attachment/22\",\"type\":\"Picture\",\"url\":\"http://xxxxx\"}],\"relatedParty\":[{\"id\":\"1234\",\"href\":\"http ://serverLocation:port/partyManagement/partyRole/1234\",\"role\":\"Owner\"}],\"resourceSpecificationRelationship\":[{\"id\":\"RSPEC23\",\"href\":\" http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceSpecification/RSPEC23\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"type\":\"dependency\"}],\"resourceSpecCharacteristic\":[{\"id\":\"54\",\"name\":\"Screen Size\",\"description\":\"Screen size\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"valueType\":\"number\",\"configurable\":false,\"resourceSpecCharRelationship\":[{\"id\":\"43\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"type\":\"dependency\"}],\"resourceSpecCharacteristicValue\":[{\"valueType\":\"number\",\"value\":\"4.2\",\"unitOfMeasure\":\"inches\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":true}]},{\"id\":\"55\",\"name\":\"Colour\",\"description\":\"Colour\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"valueType\":\"string\",\"configurable\":true,\"resourceSpecCharacteristicValue\":[{\"valueType\":\"string\",\"value\":\"Black\",\"unitOfMeasure\":\"\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":true},{\"valueType\":\"string\",\"value\":\"White\",\"unitOfMeasure\":\"\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":false}]}]}",
+					"text": "{\"id\":\"RSPEC22\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceSpecification/RSPEC22:(2.0)\",\"name\":\"iPhone 42\",\"description\":\"Siri works on this iPhone\",\"lastUpdate\":\"2014-10-27T14:42:05.454+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"brand\":\"Apple\",\"attachment\":[{\"id\":\"22\",\"href\":\"http://serverlocation:port/documentManagment/attachment/22\",\"type\":\"Picture\",\"url\":\"http://xxxxx\"}],\"relatedParty\":[{\"id\":\"1234\",\"href\":\"http ://serverLocation:port/partyManagement/partyRole/1234\",\"role\":\"Owner\"}],\"resourceSpecificationRelationship\":[{\"id\":\"RSPEC23\",\"href\":\" http://localhost:8080/DSProductCatalog/catalogManagement/resourceSpecification/RSPEC23\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"type\":\"dependency\"}],\"resourceSpecCharacteristic\":[{\"id\":\"54\",\"name\":\"Screen Size\",\"description\":\"Screen size\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"valueType\":\"number\",\"configurable\":false,\"resourceSpecCharRelationship\":[{\"id\":\"43\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"type\":\"dependency\"}],\"resourceSpecCharacteristicValue\":[{\"valueType\":\"number\",\"value\":\"4.2\",\"unitOfMeasure\":\"inches\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":true}]},{\"id\":\"55\",\"name\":\"Colour\",\"description\":\"Colour\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"valueType\":\"string\",\"configurable\":true,\"resourceSpecCharacteristicValue\":[{\"valueType\":\"string\",\"value\":\"Black\",\"unitOfMeasure\":\"\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":true},{\"valueType\":\"string\",\"value\":\"White\",\"unitOfMeasure\":\"\",\"valueFrom\":\"\",\"valueTo\":\"\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\"},\"default\":false}]}]}",
 					"language": "javascript",
 					"rawDataType": "text",
 					"state": {
@@ -2269,9 +2269,9 @@
 					"id": "697b44e7-49f0-a726-f403-78bd6ea61890",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceSpecification",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceSpecification",
 						"pathVariables": {},
-						"data": "{\n    \"id\": \"RSPEC22\",\n    \"href\": \"http://serverlocation:port/catalogManagement/resourceSpecification/22\",\n    \"name\": \"iPhone 42\",\n    \"description\": \"Siri works on this iPhone\",\n    \"brand\": \"Apple\",\n    \"version\": \"2.0\",\n    \"lastUpdate\": \"2013-04-19T16:42:23-04:00\",\n    \"lifecycleStatus\": \"Active\",\n    \"validFor\": {\n        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n        \"endDateTime\": \"2013-06-19T00:00:00-04:00\"\n    },\n    \"attachment\": [\n        {\n            \"id\": \"22\",\n            \"href\": \"http://serverlocation:port/documentManagment/attachment/22\",\n            \"type\": \"Picture\",\n            \"url\": \"http://xxxxx\"\n        }\n    ],\n    \"relatedParty\": [\n        {\n            \"role\": \"Owner\",\n            \"id\": \"1234\",\n            \"href\": \"http ://serverLocation:port/partyManagement/partyRole/1234\"\n        }\n    ],\n    \"resourceSpecificationRelationship\": [\n        {\n            \"type\": \"dependency\",\n            \"id\": \"RSPEC23\",\n            \"href\": \" http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceSpecification/RSPEC23\",\n            \"validFor\": {\n                \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                \"endDateTime\": \"\"\n            }\n        }\n    ],\n    \"resourceSpecCharacteristic\": [\n        {\n            \"id\": \"54\",\n            \"name\": \"Screen Size\",\n            \"description\": \"Screen size\",\n            \"valueType\": \"number\",\n            \"configurable\": false,\n            \"validFor\": {\n                \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                \"endDateTime\": \"\"\n            },\n            \"resourceSpecCharRelationship\": [\n                {\n                    \"type\": \"dependency\",\n                    \"id\": \"43\",\n                    \"validFor\": {\n                        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                        \"endDateTime\": \"\"\n                    }\n                }\n            ],\n            \"resourceSpecCharacteristicValue\": [\n                {\n                    \"valueType\": \"number\",\n                    \"default\": true,\n                    \"value\": \"4.2\",\n                    \"unitOfMeasure\": \"inches\",\n                    \"valueFrom\": \"\",\n                    \"valueTo\": \"\",\n                    \"validFor\": {\n                        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                        \"endDateTime\": \"\"\n                    }\n                }\n            ]\n        },\n        {\n            \"id\": \"55\",\n            \"name\": \"Colour\",\n            \"description\": \"Colour\",\n            \"valueType\": \"string\",\n            \"configurable\": true,\n            \"validFor\": {\n                \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                \"endDateTime\": \"\"\n            },\n            \"resourceSpecCharacteristicValue\": [\n                {\n                    \"valueType\": \"string\",\n                    \"default\": true,\n                    \"value\": \"Black\",\n                    \"unitOfMeasure\": \"\",\n                    \"valueFrom\": \"\",\n                    \"valueTo\": \"\",\n                    \"validFor\": {\n                        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                        \"endDateTime\": \"\"\n                    }\n                },\n                {\n                    \"valueType\": \"string\",\n                    \"default\": false,\n                    \"value\": \"White\",\n                    \"unitOfMeasure\": \"\",\n                    \"valueFrom\": \"\",\n                    \"valueTo\": \"\",\n                    \"validFor\": {\n                        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                        \"endDateTime\": \"\"\n                    }\n                }\n            ]\n        }\n    ]\n}",
+						"data": "{\n    \"id\": \"RSPEC22\",\n    \"href\": \"http://serverlocation:port/catalogManagement/resourceSpecification/22\",\n    \"name\": \"iPhone 42\",\n    \"description\": \"Siri works on this iPhone\",\n    \"brand\": \"Apple\",\n    \"version\": \"2.0\",\n    \"lastUpdate\": \"2013-04-19T16:42:23-04:00\",\n    \"lifecycleStatus\": \"Active\",\n    \"validFor\": {\n        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n        \"endDateTime\": \"2013-06-19T00:00:00-04:00\"\n    },\n    \"attachment\": [\n        {\n            \"id\": \"22\",\n            \"href\": \"http://serverlocation:port/documentManagment/attachment/22\",\n            \"type\": \"Picture\",\n            \"url\": \"http://xxxxx\"\n        }\n    ],\n    \"relatedParty\": [\n        {\n            \"role\": \"Owner\",\n            \"id\": \"1234\",\n            \"href\": \"http ://serverLocation:port/partyManagement/partyRole/1234\"\n        }\n    ],\n    \"resourceSpecificationRelationship\": [\n        {\n            \"type\": \"dependency\",\n            \"id\": \"RSPEC23\",\n            \"href\": \" http://localhost:8080/DSProductCatalog/catalogManagement/resourceSpecification/RSPEC23\",\n            \"validFor\": {\n                \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                \"endDateTime\": \"\"\n            }\n        }\n    ],\n    \"resourceSpecCharacteristic\": [\n        {\n            \"id\": \"54\",\n            \"name\": \"Screen Size\",\n            \"description\": \"Screen size\",\n            \"valueType\": \"number\",\n            \"configurable\": false,\n            \"validFor\": {\n                \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                \"endDateTime\": \"\"\n            },\n            \"resourceSpecCharRelationship\": [\n                {\n                    \"type\": \"dependency\",\n                    \"id\": \"43\",\n                    \"validFor\": {\n                        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                        \"endDateTime\": \"\"\n                    }\n                }\n            ],\n            \"resourceSpecCharacteristicValue\": [\n                {\n                    \"valueType\": \"number\",\n                    \"default\": true,\n                    \"value\": \"4.2\",\n                    \"unitOfMeasure\": \"inches\",\n                    \"valueFrom\": \"\",\n                    \"valueTo\": \"\",\n                    \"validFor\": {\n                        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                        \"endDateTime\": \"\"\n                    }\n                }\n            ]\n        },\n        {\n            \"id\": \"55\",\n            \"name\": \"Colour\",\n            \"description\": \"Colour\",\n            \"valueType\": \"string\",\n            \"configurable\": true,\n            \"validFor\": {\n                \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                \"endDateTime\": \"\"\n            },\n            \"resourceSpecCharacteristicValue\": [\n                {\n                    \"valueType\": \"string\",\n                    \"default\": true,\n                    \"value\": \"Black\",\n                    \"unitOfMeasure\": \"\",\n                    \"valueFrom\": \"\",\n                    \"valueTo\": \"\",\n                    \"validFor\": {\n                        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                        \"endDateTime\": \"\"\n                    }\n                },\n                {\n                    \"valueType\": \"string\",\n                    \"default\": false,\n                    \"value\": \"White\",\n                    \"unitOfMeasure\": \"\",\n                    \"valueFrom\": \"\",\n                    \"valueTo\": \"\",\n                    \"validFor\": {\n                        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                        \"endDateTime\": \"\"\n                    }\n                }\n            ]\n        }\n    ]\n}",
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
 						"dataMode": "raw",
 						"method": "POST",
@@ -2281,14 +2281,14 @@
 				}
 			],
 			"synced": false,
-			"rawModeData": "{\n    \"id\": \"RSPEC22\",\n    \"href\": \"http://serverlocation:port/catalogManagement/resourceSpecification/22\",\n    \"name\": \"iPhone 42\",\n    \"description\": \"Siri works on this iPhone\",\n    \"brand\": \"Apple\",\n    \"version\": \"2.0\",\n    \"lastUpdate\": \"2013-04-19T16:42:23-04:00\",\n    \"lifecycleStatus\": \"Active\",\n    \"validFor\": {\n        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n        \"endDateTime\": \"2013-06-19T00:00:00-04:00\"\n    },\n    \"attachment\": [\n        {\n            \"id\": \"22\",\n            \"href\": \"http://serverlocation:port/documentManagment/attachment/22\",\n            \"type\": \"Picture\",\n            \"url\": \"http://xxxxx\"\n        }\n    ],\n    \"relatedParty\": [\n        {\n            \"role\": \"Owner\",\n            \"id\": \"1234\",\n            \"href\": \"http ://serverLocation:port/partyManagement/partyRole/1234\"\n        }\n    ],\n    \"resourceSpecificationRelationship\": [\n        {\n            \"type\": \"dependency\",\n            \"id\": \"RSPEC23\",\n            \"href\": \" http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceSpecification/RSPEC23\",\n            \"validFor\": {\n                \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                \"endDateTime\": \"\"\n            }\n        }\n    ],\n    \"resourceSpecCharacteristic\": [\n        {\n            \"id\": \"54\",\n            \"name\": \"Screen Size\",\n            \"description\": \"Screen size\",\n            \"valueType\": \"number\",\n            \"configurable\": false,\n            \"validFor\": {\n                \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                \"endDateTime\": \"\"\n            },\n            \"resourceSpecCharRelationship\": [\n                {\n                    \"type\": \"dependency\",\n                    \"id\": \"43\",\n                    \"validFor\": {\n                        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                        \"endDateTime\": \"\"\n                    }\n                }\n            ],\n            \"resourceSpecCharacteristicValue\": [\n                {\n                    \"valueType\": \"number\",\n                    \"default\": true,\n                    \"value\": \"4.2\",\n                    \"unitOfMeasure\": \"inches\",\n                    \"valueFrom\": \"\",\n                    \"valueTo\": \"\",\n                    \"validFor\": {\n                        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                        \"endDateTime\": \"\"\n                    }\n                }\n            ]\n        },\n        {\n            \"id\": \"55\",\n            \"name\": \"Colour\",\n            \"description\": \"Colour\",\n            \"valueType\": \"string\",\n            \"configurable\": true,\n            \"validFor\": {\n                \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                \"endDateTime\": \"\"\n            },\n            \"resourceSpecCharacteristicValue\": [\n                {\n                    \"valueType\": \"string\",\n                    \"default\": true,\n                    \"value\": \"Black\",\n                    \"unitOfMeasure\": \"\",\n                    \"valueFrom\": \"\",\n                    \"valueTo\": \"\",\n                    \"validFor\": {\n                        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                        \"endDateTime\": \"\"\n                    }\n                },\n                {\n                    \"valueType\": \"string\",\n                    \"default\": false,\n                    \"value\": \"White\",\n                    \"unitOfMeasure\": \"\",\n                    \"valueFrom\": \"\",\n                    \"valueTo\": \"\",\n                    \"validFor\": {\n                        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                        \"endDateTime\": \"\"\n                    }\n                }\n            ]\n        }\n    ]\n}",
+			"rawModeData": "{\n    \"id\": \"RSPEC22\",\n    \"href\": \"http://serverlocation:port/catalogManagement/resourceSpecification/22\",\n    \"name\": \"iPhone 42\",\n    \"description\": \"Siri works on this iPhone\",\n    \"brand\": \"Apple\",\n    \"version\": \"2.0\",\n    \"lastUpdate\": \"2013-04-19T16:42:23-04:00\",\n    \"lifecycleStatus\": \"Active\",\n    \"validFor\": {\n        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n        \"endDateTime\": \"2013-06-19T00:00:00-04:00\"\n    },\n    \"attachment\": [\n        {\n            \"id\": \"22\",\n            \"href\": \"http://serverlocation:port/documentManagment/attachment/22\",\n            \"type\": \"Picture\",\n            \"url\": \"http://xxxxx\"\n        }\n    ],\n    \"relatedParty\": [\n        {\n            \"role\": \"Owner\",\n            \"id\": \"1234\",\n            \"href\": \"http ://serverLocation:port/partyManagement/partyRole/1234\"\n        }\n    ],\n    \"resourceSpecificationRelationship\": [\n        {\n            \"type\": \"dependency\",\n            \"id\": \"RSPEC23\",\n            \"href\": \" http://localhost:8080/DSProductCatalog/catalogManagement/resourceSpecification/RSPEC23\",\n            \"validFor\": {\n                \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                \"endDateTime\": \"\"\n            }\n        }\n    ],\n    \"resourceSpecCharacteristic\": [\n        {\n            \"id\": \"54\",\n            \"name\": \"Screen Size\",\n            \"description\": \"Screen size\",\n            \"valueType\": \"number\",\n            \"configurable\": false,\n            \"validFor\": {\n                \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                \"endDateTime\": \"\"\n            },\n            \"resourceSpecCharRelationship\": [\n                {\n                    \"type\": \"dependency\",\n                    \"id\": \"43\",\n                    \"validFor\": {\n                        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                        \"endDateTime\": \"\"\n                    }\n                }\n            ],\n            \"resourceSpecCharacteristicValue\": [\n                {\n                    \"valueType\": \"number\",\n                    \"default\": true,\n                    \"value\": \"4.2\",\n                    \"unitOfMeasure\": \"inches\",\n                    \"valueFrom\": \"\",\n                    \"valueTo\": \"\",\n                    \"validFor\": {\n                        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                        \"endDateTime\": \"\"\n                    }\n                }\n            ]\n        },\n        {\n            \"id\": \"55\",\n            \"name\": \"Colour\",\n            \"description\": \"Colour\",\n            \"valueType\": \"string\",\n            \"configurable\": true,\n            \"validFor\": {\n                \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                \"endDateTime\": \"\"\n            },\n            \"resourceSpecCharacteristicValue\": [\n                {\n                    \"valueType\": \"string\",\n                    \"default\": true,\n                    \"value\": \"Black\",\n                    \"unitOfMeasure\": \"\",\n                    \"valueFrom\": \"\",\n                    \"valueTo\": \"\",\n                    \"validFor\": {\n                        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                        \"endDateTime\": \"\"\n                    }\n                },\n                {\n                    \"valueType\": \"string\",\n                    \"default\": false,\n                    \"value\": \"White\",\n                    \"unitOfMeasure\": \"\",\n                    \"valueFrom\": \"\",\n                    \"valueTo\": \"\",\n                    \"validFor\": {\n                        \"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n                        \"endDateTime\": \"\"\n                    }\n                }\n            ]\n        }\n    ]\n}",
 			"owner": 0,
 			"folder": "a040aabd-494b-c206-42b5-afaee5879a22"
 		},
 		{
 			"id": "c62b305a-7f5b-8bf6-65b8-b9be2f5a1ae4",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate?depth=2&fields=category.lifecycleStatus",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate?depth=2&fields=category.lifecycleStatus",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2355,7 +2355,7 @@
 					"id": "b3453e43-5e5f-2c5b-25cb-ab49303250b4",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate?depth=2&fields=category.lifecycleStatus",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate?depth=2&fields=category.lifecycleStatus",
 						"pathVariables": {},
 						"data": [],
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -2373,7 +2373,7 @@
 		{
 			"id": "d21dc316-3feb-9b70-0742-39596bbfdc5c",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.9)",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.9)",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "PATCH",
@@ -2428,7 +2428,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "{\"id\":\"RCAN-001\",\"version\":\"1.10\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/RCAN-001:(1.10)\",\"name\":\"Virtual Storage Medium-New\",\"description\":\"Virtual Storage Medium-new\",\"lastUpdate\":\"2014-10-27T14:11:55.510+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"endDateTime\":\"2015-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"14\",\"version\":\"2.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/14\",\"name\":\"Cloud offerings-modified\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"24\",\"version\":\"1.11\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/24\",\"name\":\"specification 14\"}}",
+					"text": "{\"id\":\"RCAN-001\",\"version\":\"1.10\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/RCAN-001:(1.10)\",\"name\":\"Virtual Storage Medium-New\",\"description\":\"Virtual Storage Medium-new\",\"lastUpdate\":\"2014-10-27T14:11:55.510+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"endDateTime\":\"2015-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"14\",\"version\":\"2.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/14\",\"name\":\"Cloud offerings-modified\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"24\",\"version\":\"1.11\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/24\",\"name\":\"specification 14\"}}",
 					"language": "javascript",
 					"rawDataType": "text",
 					"state": {
@@ -2440,7 +2440,7 @@
 					"id": "a3b7d159-2f5e-3efd-1612-6c6245499de1",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.9)",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001:(1.9)",
 						"pathVariables": {},
 						"data": "{\n\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCandidate/42\",\n\t\"name\": \"Virtual Storage Medium-New\",\n\t\"description\": \"Virtual Storage Medium-new\",\n\t\"version\": \"1.10\",\n\t\"lastUpdate\": \"2015-04-19T16:42:23-04:00\",\n\t\"validFor\": {\n\t\t\"endDateTime\": \"2015-06-19T00:00:00-04:00\"\n\t},\n\t\"category\": [\n\t\t{\n\t\t\t\"id\": \"14\",\n\t\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCategory/14\",\n\t\t\t\"version\": \"2.1\",\n\t\t\t\"name\": \"Cloud offerings-modified\"\n\t\t}\n\t],\n\t\"serviceLevelAgreement\": {\n\t\t\"id\": \"28\",\n\t\t\"href\": \"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\n\t\t\"name\": \"Standard SLA\"\n\t},\n\t\"resourceSpecification\": {\n\t\t\"id\": \"24\",\n\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceSpecification/24\",\n\t\t\"name\": \"specification 14\",\n\t\t\"version\": \"1.11\"\n\t}\n}\n",
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -2459,7 +2459,7 @@
 		{
 			"id": "d5fbd5d5-545e-453d-3ea3-041152e8c30a",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "PUT",
@@ -2532,7 +2532,7 @@
 					"id": "d1563ab9-c977-6776-25e2-257b5b2b82be",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001",
 						"pathVariables": {},
 						"data": "{\n  \"id\": \"RCAN-001\",\n\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCandidate/42\",\n\t\"name\": \"Virtual Storage Medium\",\n\t\"description\": \"Virtual Storage Medium\",\n\t\"version\": \"1.89\",\n\t\"lastUpdate\": \"2013-04-19T16:42:23-04:00\",\n\t\"lifecycleStatus\": \"Active\",\n\t\"validFor\": {\n\t\t\"startDateTime\": \"2013-04-19T16:42:23-04:00\",\n\t\t\"endDateTime\": \"2013-06-19T00:00:00-04:00\"\n\t},\n\t\"category\": [\n\t\t{\n\t\t\t\"id\": \"13\",\n\t\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceCategory/13\",\n\t\t\t\"version\": \"2.1\",\n\t\t\t\"name\": \"Cloud offerings-modified\"\n\t\t}\n\t],\n\t\"serviceLevelAgreement\": {\n\t\t\"id\": \"28\",\n\t\t\"href\": \"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\n\t\t\"name\": \"Standard SLA\"\n\t},\n\t\"resourceSpecification\": {\n\t\t\"id\": \"13\",\n\t\t\"href\": \"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\n\t\t\"name\": \"specification 12\",\n\t\t\"version\": \"1.10\"\n\t}\n}\n",
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -2551,7 +2551,7 @@
 		{
 			"id": "e0efc5ba-c031-a0b2-7708-7ed68a46f1e3",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate?depth=3",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate?depth=3",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "GET",
@@ -2606,7 +2606,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "[{\"id\":\"3\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/3:(2.0)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-25T15:33:28.021+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"12\",\"version\":\"2.0\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/12\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"13\",\"version\":\"1.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 1\"}},{\"id\":\"RCAN-001\",\"version\":\"1.90\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/RCAN-001:(1.90)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-27T14:01:33.482+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"13\",\"version\":\"2.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/13\",\"name\":\"Cloud offerings-modified\"},{\"id\":\"15\",\"version\":\"2.9\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/15\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"14\",\"version\":\"1.10\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 12\"}},{\"id\":\"RCAN-001\",\"version\":\"1.10\",\"href\":\"http://localhost:8080/DSPRODUCTCATALOG2/catalogManagement/resourceCandidate/RCAN-001:(1.10)\",\"name\":\"Virtual Storage Medium-New\",\"description\":\"Virtual Storage Medium-new\",\"lastUpdate\":\"2014-10-27T14:17:54.740+0000\",\"lifecycleStatus\":\"Launched\",\"validFor\":{\"endDateTime\":\"2015-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"14\",\"version\":\"2.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/14\",\"name\":\"Cloud offerings-modified\"},{\"id\":\"15\",\"version\":\"2.7\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/15\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"24\",\"version\":\"1.11\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/24\",\"name\":\"specification 14\"}}]",
+					"text": "[{\"id\":\"3\",\"version\":\"2.0\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/3:(2.0)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-25T15:33:28.021+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"12\",\"version\":\"2.0\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/12\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"13\",\"version\":\"1.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 1\"}},{\"id\":\"RCAN-001\",\"version\":\"1.90\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/RCAN-001:(1.90)\",\"name\":\"Virtual Storage Medium\",\"description\":\"Virtual Storage Medium\",\"lastUpdate\":\"2014-10-27T14:01:33.482+0000\",\"lifecycleStatus\":\"Active\",\"validFor\":{\"startDateTime\":\"2013-04-19T20:42:23.000+0000\",\"endDateTime\":\"2013-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"13\",\"version\":\"2.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/13\",\"name\":\"Cloud offerings-modified\"},{\"id\":\"15\",\"version\":\"2.9\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/15\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"14\",\"version\":\"1.10\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/13\",\"name\":\"specification 12\"}},{\"id\":\"RCAN-001\",\"version\":\"1.10\",\"href\":\"http://localhost:8080/DSProductCatalog/catalogManagement/resourceCandidate/RCAN-001:(1.10)\",\"name\":\"Virtual Storage Medium-New\",\"description\":\"Virtual Storage Medium-new\",\"lastUpdate\":\"2014-10-27T14:17:54.740+0000\",\"lifecycleStatus\":\"Launched\",\"validFor\":{\"endDateTime\":\"2015-06-19T04:00:00.000+0000\"},\"category\":[{\"id\":\"14\",\"version\":\"2.1\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/14\",\"name\":\"Cloud offerings-modified\"},{\"id\":\"15\",\"version\":\"2.7\",\"href\":\"http://serverlocation:port/catalogManagement/resourceCategory/15\",\"name\":\"Cloud offerings\"}],\"serviceLevelAgreement\":{\"id\":\"28\",\"href\":\"http://serverlocation:port/slaManagement/serviceLevelAgreement/28\",\"name\":\"Standard SLA\"},\"resourceSpecification\":{\"id\":\"24\",\"version\":\"1.11\",\"href\":\"http://serverlocation:port/catalogManagement/resourceSpecification/24\",\"name\":\"specification 14\"}}]",
 					"language": "javascript",
 					"rawDataType": "text",
 					"state": {
@@ -2618,7 +2618,7 @@
 					"id": "c01a058a-94da-de25-9885-eb55e8bb4d78",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate?depth=3",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate?depth=3",
 						"pathVariables": {},
 						"data": [],
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
@@ -2636,7 +2636,7 @@
 		{
 			"id": "f195f67a-7d95-2d2e-0372-f8cb92e00c3e",
 			"headers": "Accept: application/json\nContent-Type: application/json\n",
-			"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001",
+			"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001",
 			"preRequestScript": "",
 			"pathVariables": {},
 			"method": "DELETE",
@@ -2697,7 +2697,7 @@
 					"id": "6fc3a49a-3383-0788-a0e5-7bdeadfa6443",
 					"name": "Response",
 					"request": {
-						"url": "http://localhost:8080/DSPRODUCTCATALOG2/api/catalogManagement/v2/resourceCandidate/RCAN-001",
+						"url": "http://localhost:8080/DSProductCatalog/api/catalogManagement/v2/resourceCandidate/RCAN-001",
 						"pathVariables": {},
 						"data": [],
 						"headers": "Accept: application/json\nContent-Type: application/json\n",
